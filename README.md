@@ -48,6 +48,7 @@ latexmk -pdf main.tex
 
 ## Repo Structure
 
+```kotlin
 UCL-COMP0086-Probabilistic-Unsupervised-Learning/
 ├── code/
 │   ├── Code_ex1_ex2_ex3.ipynb
@@ -62,5 +63,5 @@ UCL-COMP0086-Probabilistic-Unsupervised-Learning/
 │   └── ...
 ├── main.tex
 └── requirements.txt
-
+```
 
