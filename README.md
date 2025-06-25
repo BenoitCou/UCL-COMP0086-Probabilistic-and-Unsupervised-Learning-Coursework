@@ -3,6 +3,8 @@ MSc in Machine Learning, University College London (2024 / 25)
 
 This repository contains the COMP0086 Probabilistic and Unsupervised Learning coursework.
 
+The questions can be found here: https://www.gatsby.ucl.ac.uk/teaching/courses/ml1/COMP0086-summative.pdf
+
 | Path       | Description                                                                                            |
 | ---------- | ------------------------------------------------------------------------------------------------------ |
 | `main.tex` | LaTeX source of the written report.                                  |
