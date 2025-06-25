@@ -46,5 +46,21 @@ latexmk -pdf main.tex
 | Q7       | 14 / 15 | (a) good; (b) −1 : sign error in update rule.                                                                                                                     |
 | Q8       | 19 / 20 | (c) could show a few more intermediate steps deriving R\_A(x) < λ₁.                                                                                               |
 
+## Repo Structure
+
+UCL-COMP0086-Probabilistic-Unsupervised-Learning/
+├── code/
+│   ├── Code_ex1_ex2_ex3.ipynb
+│   ├── Code_ex4.ipynb
+│   ├── Code_ex5.ipynb
+│   ├── binarydigits.txt
+│   ├── message.txt
+│   ├── ssm_spins.txt
+│   ├── symbols.txt
+│   └── war_and_peace.txt
+├── images/
+│   └── ...
+├── main.tex
+└── requirements.txt
 
 
