@@ -33,6 +33,50 @@ jupyter notebook code/
 latexmk -pdf main.tex
 ```
 
+## Coursework Overview  
+
+**Exercise 1 – Binary-vector models** 
+
+- **Multivariate Bernoulli fitting** — derived closed-form ML and MAP estimators for every pixel of the 8 × 8 digit images and visualised both parameter vectors as images.  
+- **Why not Gaussians?** — explained the unsuitability of a multivariate normal for binary data.
+
+**Exercise 2 – Model selection**
+
+- Computed marginal likelihoods (under uniform Beta priors) for three nested Bernoulli models:  
+  1. fixed \(p_d = 0.5\); 2. shared unknown \(p\); 3. independent unknown \(p_d\).  
+- Returned posterior probabilities and discussed Occam’s razor effect.
+
+**Exercise 3 – EM for mixtures of Bernoullis**
+
+- **E-step**: derived responsibilities \(r_{nk}\) for K-component mixture.  
+- **M-step**: produced updates for mixing weights and pixel probabilities.  
+- **Implementation**: custom EM routine with log-likelihood convergence plots for \(K \in \{2,3,4,7,10\}\); displayed component means as 8 × 8 images; analysed sensitivity to initialisation.  
+- Bonus discussion (bits-per-pixel vs gzip) included.
+
+**Exercise 4 – LGSSM, Kalman & EM**
+
+- Ran provided Kalman filter / smoother on spinning-top time-series; plotted filtered and smoothed states plus log-det covariances, commenting on their divergence/convergence behaviour.  -
+- Full EM re-estimation was outlined but only the Kalman diagnostic plots were delivered (6 / 35). 
+
+**Exercise 5 – Deciphering text with MCMC**  
+
+- Trained a bigram language model on *War & Peace* to obtain \(ϕ,ψ\).  
+- Implemented Metropolis–Hastings sampler over 53-symbol permutations with random swap proposals; reported the first 60 decrypted characters every 100 iterations and analysed ergodicity when some transition counts are zero.
+
+**Exercise 6 – Gibbs sampling for LDA** 
+
+- **Not attempted** – left for future work.
+
+**Exercise 7 – Optimisation miscellany** 
+
+- **Constrained extremum** — used Lagrange multipliers to locate two stationary points of \(f(x,y)=x+2y\) under \(y^{2}+xy=1\).  
+- **Newton for \(\ln a\)** — framed \(f(x)=e^{x}-a\); derived update \(x_{n+1}=x_{n}-(e^{x_{n}}-a)/e^{x_{n}}\).
+
+**Eigenvalues as an optimisation problem**
+
+- Proved that maximising the Rayleigh quotient over the sphere yields the largest eigenvalue; supplied two proofs (extreme-value theorem and spectral decomposition) and showed non-maximisation for vectors outside the leading eigenspace.
+
+
 ## Marks obtained
 
 **Grade**: 100/100
