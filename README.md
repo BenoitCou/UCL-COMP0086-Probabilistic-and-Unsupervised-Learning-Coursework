@@ -15,7 +15,7 @@ The questions can be found here: https://www.gatsby.ucl.ac.uk/teaching/courses/m
 
 ```bash
 # 1. Clone the repo
-git clone https://github.com/<your-username>/UCL-COMP0086-Probabilistic-Unsupervised-Learning-Coursework
+git clone https://github.com/BenoitCou/UCL-COMP0086-Probabilistic-Unsupervised-Learning-Coursework
 cd UCL-COMP0086-Probabilistic-Unsupervised-Learning-Coursework
 
 # 2. Create & activate a virtual environment
