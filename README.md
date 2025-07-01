@@ -8,6 +8,8 @@ The questions can be found here: https://www.gatsby.ucl.ac.uk/teaching/courses/m
 | Path       | Description                                                                                            |
 | ---------- | ------------------------------------------------------------------------------------------------------ |
 | `main.tex` | LaTeX source of the written report.                                  |
+| `requirements.txt` | Requirememts to run the code.                                  |
+| `README.md` | Readme file detailing the project.                                  |
 | `images/`  | Auxiliary figures referenced by `main.tex`.                                                            |
 | `code/`    | All PJupyter notebooks with the data files needed to reproduce the experiments. |
 
