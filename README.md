@@ -97,7 +97,7 @@ latexmk -pdf main.tex
 ## Repo Structure
 
 ```kotlin
-UCL-COMP0086-Probabilistic-Unsupervised-Learning/
+UCL-COMP0086-Probabilistic-Unsupervised-Learning-Coursework/
 ├── code/
 │   ├── Code_ex1_ex2_ex3.ipynb
 │   ├── Code_ex4.ipynb
