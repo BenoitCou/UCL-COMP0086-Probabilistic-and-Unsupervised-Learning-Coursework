@@ -8,7 +8,7 @@ The questions can be found here: https://www.gatsby.ucl.ac.uk/teaching/courses/m
 | Path       | Description                                                                                            |
 | ---------- | ------------------------------------------------------------------------------------------------------ |
 | `main.tex` | LaTeX source of the written report.                                  |
-|CW_COMP0086_report.pdf| PDF version of the report. |
+| `CW_COMP0086_report.pdf` | PDF version of the report. |
 | `requirements.txt` | Requirememts to run the code.                                  |
 | `images/`  | Auxiliary figures referenced by `main.tex`.                                                            |
 | `code/`    | All PJupyter notebooks with the data files needed to reproduce the experiments. |
