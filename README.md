@@ -108,6 +108,7 @@ UCL-COMP0086-Probabilistic-Unsupervised-Learning-Coursework/
 ├── images/
 │   └── ...
 ├── main.tex
+├── CW_COMP0086_report.pdf
 └── requirements.txt
 ```
 
