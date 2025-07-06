@@ -20,13 +20,10 @@ The questions can be found here: https://www.gatsby.ucl.ac.uk/teaching/courses/m
 git clone https://github.com/BenoitCou/UCL-COMP0086-Probabilistic-and-Unsupervised-Learning-Coursework
 cd UCL-COMP0086-Probabilistic-and-Unsupervised-Learning-Coursework
 
-# 2. Create & activate a virtual environment
-python -m venv .venv
-
-# 3. Install Python dependencies
+# 2. Install Python dependencies
 pip install -r requirements.txt
 
-# 4. Launch the notebooks
+# 3. Launch the notebooks
 jupyter notebook code/
 ```
 
