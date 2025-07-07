@@ -43,8 +43,9 @@ latexmk -pdf main.tex
 **Exercise 2 – Model selection**
 
 - Computed marginal likelihoods (under uniform Beta priors) for three nested Bernoulli models:  
-  1. fixed $p_d = 0.5$; 2. shared unknown $p$; 3. independent unknown $p_d$.  
-- Returned posterior probabilities and discussed Occam’s razor effect.
+  1. fixed $p_d = 0.5$;
+  2. shared unknown $p$;
+  3. independent unknown $p_d$.  
 
 **Exercise 3 – EM for mixtures of Bernoullis**
 
@@ -55,8 +56,7 @@ latexmk -pdf main.tex
 
 **Exercise 4 – LGSSM, Kalman & EM**
 
-- Ran provided Kalman filter / smoother on spinning-top time-series; plotted filtered and smoothed states plus log-det covariances, commenting on their divergence/convergence behaviour.  -
-- Full EM re-estimation was outlined but only the Kalman diagnostic plots were delivered (6 / 35). 
+- Ran provided Kalman filter / smoother on time-series; plotted filtered and smoothed states plus log-det covariances, commenting on their divergence/convergence behaviour.  -
 
 **Exercise 5 – Deciphering text with MCMC**  
 
@@ -72,9 +72,9 @@ latexmk -pdf main.tex
 - **Constrained extremum** — used Lagrange multipliers to locate two stationary points of $f(x,y)=x+2y$ under $y^{2}+xy=1$.  
 - **Newton for $\ln a$** — framed $f(x)=e^{x}-a$; derived update $x_{n+1}=x_{n}-(e^{x_{n}}-a)/e^{x_{n}}$.
 
-**Eigenvalues as an optimisation problem**
+**Exercise 8 – Eigenvalues as an optimisation problem**
 
-- Proved that maximising the Rayleigh quotient over the sphere yields the largest eigenvalue; supplied two proofs (extreme-value theorem and spectral decomposition) and showed non-maximisation for vectors outside the leading eigenspace.
+- Proved that maximising the Rayleigh quotient over the sphere yields the largest eigenvalue; showed non-maximisation for vectors outside the leading eigenspace.
 
 
 ## Marks obtained
